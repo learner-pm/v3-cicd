@@ -39,7 +39,7 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.REMOTE_SSH }}
           port: 22
-          source: "dist/*"
-          target: ${{ secrets.REMOTE_TARGET_RILE }}
+          source: "dist/"
+          target: "/www/test"
      
   
