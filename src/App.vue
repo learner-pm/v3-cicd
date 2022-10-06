@@ -4,7 +4,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <header>hi cicd</header>
+  <header>hi - cicd</header>
 </template>
 
 <style scoped>
