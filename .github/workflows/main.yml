@@ -40,6 +40,6 @@ jobs:
           key: ${{ secrets.REMOTE_SSH }}
           port: 22
           source: "dist/"
-          target: "/www/test"
+          target: ${{ secrets.REMOTE_TARGET_FILE }}
      
   
